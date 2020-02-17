@@ -4,6 +4,7 @@ body {
 header {
     background-color: #FFBB9C;
     padding: 30px;
+    border: black solid 2px;
 }
 h1 {
     color: #FF1637;

@@ -1,8 +1,9 @@
 'use strict';
 var gistName = prompt ("please, what's your name?");
+alert ("welcome " + gistName + " I hope you to enjoy");
 var name = prompt("my name is sondos","yes or no");
 name = name.toLowerCase();
-console.log (name)
+console.log (name);
 if (name === "yes" || name === "y"){
     alert ("yes your good guesser my  name is sondos");
 }
@@ -66,4 +67,4 @@ if (hobby === "YES" || hobby === "Y"){
 else if (hobby === "NO" || hobby === "N"){
     alert ("no my friend it's my favorite hobby");
 }
-alert ("welcome " + gistName + " I hope you enjoyed");
+alert (gistName + ", thanks for playing with me");
