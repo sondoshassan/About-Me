@@ -133,6 +133,6 @@ if (ansUser !== langPrograme[l] && k === 5){
 console.log('score at q7 '+score);
 
 
-alert ('my favorite movies are '+langPrograme);
+alert ('my languges programming are '+langPrograme);
 alert ('your score is '+score+' from 7');
 
