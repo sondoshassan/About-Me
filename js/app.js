@@ -101,25 +101,25 @@ console.log('score at q6 '+score);
 
 //  question seven
 var langPrograme = ['c++','javascript','java','html','css'];
-var ansUser = prompt ('what are the programming languages I know?','c++, javascript, java, html, css');
+var ansUser = prompt ('what are my languages programming?','c++, javascript, java, html, css');
 ansUser = ansUser.toLowerCase();
 
 var j = 0;
 for (var k=0; k < 5;k++){
-    var p = 0;
+    var asElse = 0;
 for (var l = 0; l < langPrograme.length; l++){
     
 if (ansUser === langPrograme[l]){
     alert ('that\'s right');
     score++;
-    p++;
+    asElse++;
     break;   
 }
 }
 console.log ('k = ' + k);
-if (p !== 1){
+if (asElse !== 1){
     alert ('thats wrong');
-    var ansUser = prompt ('what are the programming languages I know?','c++, javascript, java, html, css');
+    var ansUser = prompt ('what are my languages programming?','c++, javascript, java, html, css');
     
 }
 else if (ansUser === langPrograme[l]) {
@@ -133,6 +133,6 @@ if (ansUser !== langPrograme[l] && k === 5){
 console.log('score at q7 '+score);
 
 
-alert ('my languges programming are '+langPrograme);
+alert ('my languages programming are '+langPrograme);
 alert ('your score is '+score+' from 7');
 
