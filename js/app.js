@@ -151,15 +151,11 @@ console.log('score at q7 '+score);
 
 
 alert ('my languages programming are '+langPrograme);}
+var allFunction = [qOne(),qTwo(),qThree(),qFour(),qFive(),qSix(),qSeven()];
+for (var b = 0; b < allFunction.length;b++){
+    allFunction[b];
+}
 
-
-qOne();
-qTwo();
-qThree();
-qFour();
-qFive();
-qSix();
-qSeven();
 
 alert ('your score is '+score+' from 7');
 
