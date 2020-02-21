@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
 body {
     background-color: cadetblue;
 }
@@ -6,7 +8,7 @@ header {
     padding: 30px;
     border: black solid 2px;
     background-color: white;
-    height: 43px;
+    height: 10px;
     position: sticky;
     top: 0;
 }
@@ -46,7 +48,7 @@ nav li a {
 }
 
 main {
-    height: 893px;
+    height: 803px;
 }
 div {
     padding-left: 10px;
@@ -60,7 +62,11 @@ height: 200px;
 float: right;
 border-radius: 10%;
 }
+h2.center {
+    text-align: center;
+}
 h2 {
+    font-family: lato, Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
     font-weight: bold;
     padding: 10px;
@@ -86,19 +92,20 @@ p {
     margin-left: 10px;
     background-color: rgb(146, 197, 199);
     float: left;
-    height: 218px;
+    height: 121px;
     margin-bottom: 23px;
 }
 /* to make second block */
 .block1{
     display: inline-block;
-    width: 31%;
-    margin-left: 82px;
+    width: 16%;
+    margin-left: 272px;
     background-color: rgb(146, 197, 199);
     float: left;
-    height: 245px;
+    height: 243px;
     margin-bottom: 23px; 
     text-align: center;
+
 }
 
 #first {
@@ -117,8 +124,8 @@ p {
     margin-left: 20px;
 }
 .icons {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     text-align: -webkit-center;
     float: none;
 }
