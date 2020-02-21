@@ -9,23 +9,35 @@
 </head>
 <body>
     <header>
-        <p class="upperCase">HI,</p>
-        <p class="upperCase">i am sondos elayyan</p>
+        <h1 class="upperCase">my resume</h1>
+        <nav>
+           <li><a class="link" href="#Home">Home</a></li>
+           <li><a class="link" href="#intro">Introduction</a></li>
+           <li><a class="link" href="#exper">Experiences</a></li>
+           <li><a class="link" href="#info">Information</a></li>
+           <li><a class="link" href="#Cont">Contact Me</a></li>
+        </nav>
+        
     </header>
     <main>
-    <div>
-        <article>
+        <article class="images" id="Home">
+        <img src="img/IMG_1081.JPG" alt="my photo">
+        <p class="upperCase newP">hi,<br>i am sondos elayyan</p>
+        </article>
+        <article class="catgory" id="intro">
         <h2>Introduction</h2>
             <p>I'm sondos elayyan, I graduted from Hashemite Unversity as a mechatronics engineer.</p>
         </article>
-        <article>
+        <div class="catgory" id="exper">
+            <h2>Experiences</h2>
+        <article id="Edu" class="block">
             <h2>Educations</h2>
             <ul id="first">
                 <li>Bachelor of mechatronics engineering, Hashemite University; Zarqa, Jordan</li>
                 <li>I worked social media at amazing design office.</li>
             </ul>
         </article>
-        <article>
+        <article id="Job" class="block">
             <h2>Job experience</h2>
             <ul id="second">
                 <li>worked with Hashemite University as assistant engineer (designer engineer)
@@ -33,7 +45,7 @@
                 <li>Training at Mercedes Benz; Amman, Jordan</li>
                 </ul>
         </article>
-        <article>
+        <article id="Prog" class="block">
             <h2>Programming Skills</h2>          
             <ul id="third">
                 <li>Html</li>
@@ -42,11 +54,14 @@
                 <li>C++</li>
             </ul>
         </article>
-        <article>
+        </div>
+        <div class="catgory" id="info">
+            <h2>Information</h2>
+        <article id="Goal" class="block1">
             <h2>My goals</h2>          
             <p>I want to open a programming company</p>
         </article>
-        <article>
+        <article id="Top" class="block1">
             <h2>Top ten movies</h2>          
             <ol>
                 <li>coco</li>
@@ -61,9 +76,16 @@
                 <li>mulan</li>
             </ol>
         </article>
-    </div> 
+    </div>
     </main>
-    <footer><p>copy right sondos hassan</p></footer>
+    <footer>
+        <h2 id="Cont">Contact Me</h2>
+        <a href="https://www.linkedin.com/in/sondos-alayyan-709a77106/" target="-blank"><img src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG32.png" alt="linkedin icon" class="icons"></a>
+        <a href="https://github.com/sondoshassan" target="-blank"><img src="https://toppng.com/uploads/preview/see-all-open-source-repositories-github-logo-11563031735gubsot66ry.png" alt="GitHub icon" class="icons"></a>
+        <p>copy right sondos hassan</p>
+
+        
+    </footer>
     <!-- <script src="js/app.js"></script> -->
 </body>
 </html>

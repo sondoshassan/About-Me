@@ -1,45 +1,104 @@
 body {
-    background-color: #FFEB9C;
+    background-color: cadetblue;
 }
 
 header {
     padding: 30px;
     border: black solid 2px;
-    background-image: url("../img/bHeader.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
+    background-color: white;
+    height: 43px;
+    position: sticky;
+    top: 0;
 }
 .upperCase {
     text-transform: uppercase;
-    color: white;
-    text-align: -webkit-center;
-    
 }
 h1 {
-    color: #ffffff;
-    font-size: 49px;
+    color: #ee2364;
+    font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    text-align: center;
+    text-align: -webkit-left;
+    float: left;
+    padding-bottom: 5px;
 }
+nav {
+   float: right;
+   position: relative;
+}
+nav li {
+    text-align: -webkit-right;
+    display: inline-block;
+    padding: 9px 4px;
+    
+}
+nav li a {
+    text-decoration: none;
+}
+.link:link{
+    color: black;
+}
+.link:hover{
+    color: #f7759e;
+}
+.link:active{
+    color: #9e1e47;
+}
+
 main {
-    height: 700px;
+    height: 893px;
 }
 div {
-    background-color: #8ac6d1;
     padding-left: 10px;
+}
+.images {
+    background-color: #5c6870;
+    height: 200px;
+}
+img {
+height: 200px;
+float: right;
+border-radius: 10%;
 }
 h2 {
     font-size: 28px;
     font-weight: bold;
-    padding-bottom: 5px;
-    padding-top: 2px;
+    padding: 10px;
 }
 p {
-    padding-bottom: 15px;
+    padding: 10px;
 }
-
+.newP {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+    text-align: -webkit-center;
+    padding-top: 58px;
+    }
+.catgory {
+    background-color: cadetblue;
+    
+}
+.block {
+    display: inline-block;
+    width: 31%;
+    margin-left: 10px;
+    background-color: rgb(146, 197, 199);
+    float: left;
+    height: 218px;
+    margin-bottom: 23px;
+}
+.block1{
+    display: inline-block;
+    width: 31%;
+    margin-left: 82px;
+    background-color: rgb(146, 197, 199);
+    float: left;
+    height: 245px;
+    margin-bottom: 23px; 
+    text-align: center;
+}
 
 #first {
     list-style-type: square;
@@ -56,9 +115,15 @@ p {
     padding-bottom: 15px;
     margin-left: 20px;
 }
+.icons {
+    width: 20px;
+    height: 20px;
+    text-align: -webkit-center;
+    float: none;
+}
 footer {
     background-color: #8ac6d1;
-    text-align: center;
-    padding-top: 10px;
+    text-align: -webkit-center;
+    padding-top: 0px;
 }
 
