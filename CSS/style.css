@@ -1,13 +1,23 @@
 body {
     background-color: #FFEB9C;
 }
+
 header {
-    background-color: #FFBB9C;
     padding: 30px;
     border: black solid 2px;
+    background-image: url("../img/bHeader.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+.upperCase {
+    text-transform: uppercase;
+    color: white;
+    text-align: -webkit-center;
+    
 }
 h1 {
-    color: #FF1637;
+    color: #ffffff;
     font-size: 49px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
